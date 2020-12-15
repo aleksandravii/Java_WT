@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+	<description>Custom tag for order bean</description>
+	<tlib-version>2.1</tlib-version>
+	<short-name>orderBeanTable</short-name>
+	<uri>/WEB-INF/orderCustomTag</uri>
+	<tag>
+		<description>Tag show order data in table</description>
+		<name>orderBeanTable</name>
+		<tag-class>techshop.web.utils.OrderCustomTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<description>order bean</description>
+			<name>orderBean</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>techshop.domain.beans.OrderBean</type>
+		</attribute>
+	</tag>
+</taglib>

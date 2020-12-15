@@ -1,0 +1,66 @@
+<%@ include file="/WEB-INF/jspf/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/taglib.jspf"%>
+
+<div class="headContainer">
+    <div class="header">
+        <a href="controller?command=shop" id="logo" >
+             TechShop
+        </a>
+        <a href="controller?command=cart" class="cart">
+            <fmt:message key="header.cart"/>
+        </a>
+
+        <c:choose>
+        	<c:when test="${user.roleId eq 1}">
+        		<a href="controller?command=person_account" class="userMenu">
+           			 <fmt:message key="header.personal.account"/>
+        		</a>
+        	</c:when>
+        	<c:when test="${user.roleId eq 0}">
+        		<a href="controller?command=admin_menu" class="userMenu">
+           			 <fmt:message key="header.admin.menu"/>
+       			 </a>
+        	</c:when>
+        </c:choose>
+
+         <a href="#" class="empty">
+
+        </a>
+
+        <c:choose>
+        	<c:when test="${not empty user}">
+        		<a href="controller?command=logout" class="logout">
+            		<fmt:message key="header.logout"/>
+       			 </a>
+        	</c:when>
+        	<c:otherwise>
+        		<a href="controller?command=login" class="login">
+            		<fmt:message key="header.login"/>
+       			 </a>
+       			 <a href="controller?command=registration" class="registration">
+            		<fmt:message key="header.registration"/>
+       			 </a>
+        	</c:otherwise>
+        </c:choose>
+		
+        <div class="dropdown">
+            <a href="#" class="language">
+                <fmt:message key="header.language"/>
+            </a>
+            <div class="dropdown-content">
+                <form method="post" action="controller">
+                	<input type="hidden" name="command" value="language">
+                	<input type="hidden" name="language" value="ru">
+                	<input type="hidden" name="path" value="${requestScope['javax.servlet.forward.query_string']}">
+                	<input type="submit" value="<fmt:message key="header.language.russian"/>">
+                </form>
+                <form method="post" action="controller">
+               		<input type="hidden" name="command" value="language">
+                	<input type="hidden" name="language" value="en">
+                	<input type="hidden" name="path" value="${requestScope['javax.servlet.forward.query_string']}">
+                	<input type="submit" value="<fmt:message key="header.language.english"/>">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

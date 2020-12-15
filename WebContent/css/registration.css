@@ -1,0 +1,72 @@
+.leftContainer, .middleContainer, .rightContainer {
+    display: inline-block;
+    float: left;
+}
+
+.leftContainer{
+    width: 30%;
+}
+
+.rightContainer {
+    width: 30%;
+}
+
+.middleContainer {
+    width: 40%;
+}
+
+.inputTable {
+    margin: 30px 0 0 100px;
+}
+
+.inputTable p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    text-align: right;
+    padding-top: 27px;
+}
+
+.inputTable input[type="text"],
+.inputTable input[type="password"] {
+    width:250px;
+    height: 34px;
+    background-color: #E6E6E6;
+    border:1px solid black;
+    border-radius: 3px;
+    text-decoration:none;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-left: 15px;
+}
+
+.g-recaptcha {
+    margin: 30px 0 0 200px;
+}
+
+.button {
+    border-radius: 3px;
+    border:1px solid black;
+    text-decoration:none;
+    background-color: #E6E6E6;
+    padding: 7px;
+    min-width: 80px;
+    margin-left: 55px;
+    margin-top: 30px;
+}
+
+.submit {
+    margin-left: 200px;
+    min-width: 80px;
+}
+
+.button:hover {
+    border:1px solid #6A5ACD;
+}
+
+.message {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,12 @@
+<%-- JSTL core taglib --%>
+<%@  taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+
+<%-- JSTL i18n taglib --%>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
+
+<%-- Set i18n support --%>
+<c:set var="language"
+	value="${not empty language ? language : pageContext.request.locale.language}"
+	scope="session" />
+<fmt:setLocale value="${language}" />
+<fmt:setBundle basename="resources" />

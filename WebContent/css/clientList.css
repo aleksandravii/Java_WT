@@ -1,0 +1,47 @@
+.leftContainer, .middleContainer, .rightContainer {
+    display: inline-block;
+    float: left;
+    height: 600px;
+}
+
+.leftContainer{
+    width: 30%;
+}
+
+.rightContainer {
+    width: 20%;
+}
+
+.middleContainer {
+    width: 50%;
+}
+
+.noClients {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 30px 0 0 30px;
+    font-size: 30px;
+    color: #545A83;
+}
+
+.userTable {
+    margin-top: 30px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.userTable th {
+    font-weight: bold;
+    color: black;
+    padding: 10px 15px;
+}
+
+.userTable td {
+    color: #323A67;
+    border-top: 1px solid #323A67;
+    padding: 10px 15px;
+}
+
+.userTable tr:nth-child(2n) {
+    background: #CDCDD6;
+}

@@ -1,0 +1,82 @@
+.leftContainer, .middleContainer, .rightContainer {
+    display: inline-block;
+    float: left;
+}
+
+.leftContainer{
+    width: 30%;
+}
+
+.rightContainer {
+    width: 35%;
+}
+
+.middleContainer {
+    width: 35%;
+}
+
+.noGoods p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 30px 0 0 30px;
+    font-size: 30px;
+    color: #545A83;
+}
+
+.goods:before, .goods:after {
+    content:"";
+    display: table;
+    box-sizing: border-box;
+}
+.goods:after {
+    clear: both;
+}
+.goods {
+    clear: both;
+    *zoom: 1;
+
+    border:2px solid #545A83;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.goods > form {
+    float: left;
+}
+
+.leftGoods {
+    margin: 20px 0 0 50px;
+    width: 50%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+}
+
+
+.edit {
+    margin: 10px 0 10px 50px;
+    min-width: 90px;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.rightGoods {
+    width: 30%;
+    margin: 45px 0 0 40px;
+}
+
+.removeButton {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.newGoodsButContainer {
+    margin: 60px 0 0 70px;
+}
+
+.newGoodsBut {
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+

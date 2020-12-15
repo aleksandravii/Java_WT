@@ -1,0 +1,45 @@
+.hello, .offer {
+    width: 100%;
+    text-align: center;
+}
+
+.hello p, .offer p {
+    padding-top: 20px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    color: #545A83;
+}
+
+.mainContainer {
+    width: 100%;
+}
+
+.main {
+    margin: 0 28% 0 28%;
+}
+
+.category {
+    display: block;
+    margin-top: 5%;
+    height: 70px;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 24px;
+    border-radius: 10px;
+    padding-top: 20px;
+    background-color: #545A83;
+
+}
+
+.category:link, .category:visited {
+    text-decoration: none;
+    color: #E6E6E6;
+}
+
+.category:hover {
+
+    transition: 0.5s;
+    background-color: #323A67;
+}
+
+

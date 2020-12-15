@@ -1,0 +1,76 @@
+.leftContainer, .middleContainer, .rightContainer {
+    display: inline-block;
+    float: left;
+}
+
+.leftContainer{
+    width: 30%;
+}
+
+.rightContainer {
+    width: 30%;
+}
+
+.middleContainer {
+    width: 40%;
+}
+
+.title {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 20px 0 0 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.inputTable {
+    margin-left: 90px;
+}
+
+.inputTable p {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    text-align: right;
+    padding: 28px 20px 0 0;
+}
+
+.inputTable input {
+    width:250px;
+    height: 34px;
+    background-color: #E6E6E6;
+    border:1px solid black;
+    border-radius: 3px;
+    text-decoration:none;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.inputTable select {
+    background: #E6E6E6;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 3px;
+    height: 34px;
+    margin-top: 20px;
+}
+
+.inputTable select option {
+    background-color: #F5F5F5;
+}
+
+.button {
+    border-radius: 3px;
+    border:1px solid black;
+    text-decoration:none;
+    background-color: #E6E6E6;
+    padding: 7px;
+    margin: 30px 0 0 202px;
+}
+
+.button:hover {
+    border:1px solid #6A5ACD;
+}
+
+
+
+

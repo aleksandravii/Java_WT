@@ -1,0 +1,45 @@
+.leftContainer, .middleContainer, .rightContainer {
+    display: inline-block;
+    float: left;
+    width: 25%;
+    height: 600px;
+}
+
+.middleContainer {
+    width: 50%;
+}
+
+.middleContainer > a {
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #323A67;
+    border-radius: 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    width: 170px;
+    height: 120px;
+    margin-top: 80px;
+    padding-top: 45px;
+}
+
+.middleContainer > a:link, .middleContainer > a:visited {
+    text-decoration: none;
+}
+
+.middleContainer > a:hover {
+    transition: 0.5s;
+    background-color: #323A67;
+    color: #E6E6E6;
+}
+
+.client {
+    margin-left: 80px;
+}
+
+.order {
+    margin: 0 40px 0 40px;
+}
+

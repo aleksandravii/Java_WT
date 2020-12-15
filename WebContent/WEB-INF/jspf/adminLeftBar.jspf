@@ -1,0 +1,16 @@
+<%@ include file="/WEB-INF/jspf/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/taglib.jspf"%>
+
+<div class="leftContainer">
+    <div class="menu">
+        <a href="controller?command=all_clients" class="category">
+            <fmt:message key="admin.menu.clients"/>
+        </a>
+        <a href="controller?command=all_orders" class="category">
+            <fmt:message key="admin.menu.orders"/>
+        </a>
+        <a href="controller?command=all_goods" class="category">
+            <fmt:message key="admin.menu.goods"/>
+        </a>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project default="remove">  
+    <property name="dest.dir" value="..\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\work\Catalina\localhost\SummaryTask4"/>
+     
+    <target name="remove">
+        <delete>
+            <fileset dir="${dest.dir}"/>
+        </delete>
+    </target>
+</project>

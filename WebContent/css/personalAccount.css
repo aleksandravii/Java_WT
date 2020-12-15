@@ -1,0 +1,76 @@
+.middleContainer {
+}
+
+.noOrders {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 30px 0 0 30px;
+    font-size: 30px;
+    color: #545A83;
+}
+
+.orderTable {
+    margin-top: 28px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+
+.orderTable th {
+    font-weight: bold;
+    color: black;
+    padding: 10px 15px;
+}
+
+.orderTable td {
+    color: #323A67;
+    border-top: 1px solid #323A67;
+    padding: 10px 15px;
+}
+
+.orderTable tr:nth-child(2n) {
+    background: #CDCDD6;
+}
+
+.date, .price{
+    width: 110px;
+    text-align: center;
+}
+
+.status {
+    text-align: center;
+}
+
+.download {
+    border-radius: 3px;
+    border:1px solid black;
+    text-decoration:none;
+    background-color: #E6E6E6;
+    padding: 7px;
+    margin: 32px 50px 32px 0;
+}
+
+.download:hover {
+    border:1px solid #6A5ACD;
+}
+
+.rightContainer {
+    padding-left: 30px;
+}
+
+.personalData {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 30px 0 0 30px;
+    font-size: 20px;
+    color: black;
+}
+
+.persDataTable {
+    margin-top: 10px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+
+.persDataTable td {
+    color: black;
+    border-top: 1px solid #ADADAD;
+    padding: 10px 15px;
+}

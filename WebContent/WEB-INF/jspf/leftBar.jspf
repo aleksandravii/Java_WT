@@ -1,0 +1,16 @@
+<%@ include file="/WEB-INF/jspf/page.jspf"%>
+<%@ include file="/WEB-INF/jspf/taglib.jspf"%>
+
+<div class="leftContainer">
+    <div class="menu">
+        <a href="controller?command=catalog&category=all" class="category">
+            <fmt:message key="main_page.all_goods"/>
+        </a>
+        <c:forEach var="category" items="${categories}">
+            <a href="controller?command=catalog&category=${category.categoryName}" class="category">
+                <fmt:message key="${category.categoryName}"/>
+            </a>
+        </c:forEach>
+    </div>
+</div>
+
